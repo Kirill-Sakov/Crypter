@@ -1196,7 +1196,8 @@ namespace Crypter
 
                 treeView.Nodes.Add(node);
 
-                textBoxKey.Text = "75-BA-FD-82-6D-54-6B-DA-F0-40-B9-46-BB-43-79-0B-1B-8C-54-3F-52-D8-32-D3-D7-62-91-BF-98-27-7A-6D-64-B0-97-65-3D-A6-EE-5D-7C-18-14-E7-55-C1-FF-C4";
+                // Ключи использовавшийся для тестов
+                //textBoxKey.Text = "75-BA-FD-82-6D-54-6B-DA-F0-40-B9-46-BB-43-79-0B-1B-8C-54-3F-52-D8-32-D3-D7-62-91-BF-98-27-7A-6D-64-B0-97-65-3D-A6-EE-5D-7C-18-14-E7-55-C1-FF-C4";
 
                 listViewFiles.GetType()
                                 .GetProperty("DoubleBuffered", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic)
